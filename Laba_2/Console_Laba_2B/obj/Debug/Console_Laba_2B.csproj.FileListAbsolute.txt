@@ -1,0 +1,7 @@
+C:\Users\glaz8\Desktop\C#\Laba_2\Console_Laba_2B\bin\Debug\Console_Laba_2B.exe.config
+C:\Users\glaz8\Desktop\C#\Laba_2\Console_Laba_2B\bin\Debug\Console_Laba_2B.exe
+C:\Users\glaz8\Desktop\C#\Laba_2\Console_Laba_2B\bin\Debug\Console_Laba_2B.pdb
+C:\Users\glaz8\Desktop\C#\Laba_2\Console_Laba_2B\obj\Debug\Console_Laba_2B.csprojAssemblyReference.cache
+C:\Users\glaz8\Desktop\C#\Laba_2\Console_Laba_2B\obj\Debug\Console_Laba_2B.csproj.CoreCompileInputs.cache
+C:\Users\glaz8\Desktop\C#\Laba_2\Console_Laba_2B\obj\Debug\Console_Laba_2B.exe
+C:\Users\glaz8\Desktop\C#\Laba_2\Console_Laba_2B\obj\Debug\Console_Laba_2B.pdb

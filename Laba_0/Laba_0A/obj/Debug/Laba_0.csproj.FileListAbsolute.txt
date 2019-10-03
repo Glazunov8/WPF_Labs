@@ -1,0 +1,14 @@
+C:\Users\glaz8\Desktop\C#\Laba_0\obj\Debug\Laba_0.csprojAssemblyReference.cache
+C:\Users\glaz8\Desktop\C#\Laba_0\obj\Debug\Laba_0.csproj.CoreCompileInputs.cache
+C:\Users\glaz8\Desktop\C#\Laba_0\bin\Debug\Laba_0.exe.config
+C:\Users\glaz8\Desktop\C#\Laba_0\bin\Debug\Laba_0.exe
+C:\Users\glaz8\Desktop\C#\Laba_0\bin\Debug\Laba_0.pdb
+C:\Users\glaz8\Desktop\C#\Laba_0\obj\Debug\Laba_0.exe
+C:\Users\glaz8\Desktop\C#\Laba_0\obj\Debug\Laba_0.pdb
+C:\Users\glaz8\Desktop\C#\Laba_0\Laba_0A\bin\Debug\Laba_0.exe.config
+C:\Users\glaz8\Desktop\C#\Laba_0\Laba_0A\bin\Debug\Laba_0.exe
+C:\Users\glaz8\Desktop\C#\Laba_0\Laba_0A\bin\Debug\Laba_0.pdb
+C:\Users\glaz8\Desktop\C#\Laba_0\Laba_0A\obj\Debug\Laba_0.csprojAssemblyReference.cache
+C:\Users\glaz8\Desktop\C#\Laba_0\Laba_0A\obj\Debug\Laba_0.csproj.CoreCompileInputs.cache
+C:\Users\glaz8\Desktop\C#\Laba_0\Laba_0A\obj\Debug\Laba_0.exe
+C:\Users\glaz8\Desktop\C#\Laba_0\Laba_0A\obj\Debug\Laba_0.pdb
