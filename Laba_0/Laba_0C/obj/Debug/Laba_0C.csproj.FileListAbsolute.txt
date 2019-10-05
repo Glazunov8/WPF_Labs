@@ -1,7 +1,0 @@
-C:\Users\glaz8\Desktop\C#\Laba_0\Laba_0C\bin\Debug\Laba_0C.exe.config
-C:\Users\glaz8\Desktop\C#\Laba_0\Laba_0C\bin\Debug\Laba_0C.exe
-C:\Users\glaz8\Desktop\C#\Laba_0\Laba_0C\bin\Debug\Laba_0C.pdb
-C:\Users\glaz8\Desktop\C#\Laba_0\Laba_0C\obj\Debug\Laba_0C.csprojAssemblyReference.cache
-C:\Users\glaz8\Desktop\C#\Laba_0\Laba_0C\obj\Debug\Laba_0C.csproj.CoreCompileInputs.cache
-C:\Users\glaz8\Desktop\C#\Laba_0\Laba_0C\obj\Debug\Laba_0C.exe
-C:\Users\glaz8\Desktop\C#\Laba_0\Laba_0C\obj\Debug\Laba_0C.pdb
