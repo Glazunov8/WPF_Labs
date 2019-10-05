@@ -1,0 +1,15 @@
+C:\Users\glaz8\WPF_Labs\Laba_3\Laba_3D\bin\Debug\Laba_3D.exe.config
+C:\Users\glaz8\WPF_Labs\Laba_3\Laba_3D\bin\Debug\Laba_3D.exe
+C:\Users\glaz8\WPF_Labs\Laba_3\Laba_3D\bin\Debug\Laba_3D.pdb
+C:\Users\glaz8\WPF_Labs\Laba_3\Laba_3D\obj\Debug\Laba_3D.csprojAssemblyReference.cache
+C:\Users\glaz8\WPF_Labs\Laba_3\Laba_3D\obj\Debug\MainWindow.g.cs
+C:\Users\glaz8\WPF_Labs\Laba_3\Laba_3D\obj\Debug\App.g.cs
+C:\Users\glaz8\WPF_Labs\Laba_3\Laba_3D\obj\Debug\Laba_3D_MarkupCompile.cache
+C:\Users\glaz8\WPF_Labs\Laba_3\Laba_3D\obj\Debug\Laba_3D_MarkupCompile.lref
+C:\Users\glaz8\WPF_Labs\Laba_3\Laba_3D\obj\Debug\MainWindow.baml
+C:\Users\glaz8\WPF_Labs\Laba_3\Laba_3D\obj\Debug\Laba_3D.g.resources
+C:\Users\glaz8\WPF_Labs\Laba_3\Laba_3D\obj\Debug\Laba_3D.Properties.Resources.resources
+C:\Users\glaz8\WPF_Labs\Laba_3\Laba_3D\obj\Debug\Laba_3D.csproj.GenerateResource.cache
+C:\Users\glaz8\WPF_Labs\Laba_3\Laba_3D\obj\Debug\Laba_3D.csproj.CoreCompileInputs.cache
+C:\Users\glaz8\WPF_Labs\Laba_3\Laba_3D\obj\Debug\Laba_3D.exe
+C:\Users\glaz8\WPF_Labs\Laba_3\Laba_3D\obj\Debug\Laba_3D.pdb
