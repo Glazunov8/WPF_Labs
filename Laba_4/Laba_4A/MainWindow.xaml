@@ -1,0 +1,28 @@
+﻿<Window x:Class="Laba_4A.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Laba_4A"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800" Loaded="Window_Loaded">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="0.2*"/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+
+        <ToolBar>
+            <StackPanel Orientation="Horizontal">
+                <Button Name="bolt" FontFamily="Gill Sans" FontStretch="UltraExpanded" Margin="5" Content="B" MinWidth="100" FontSize="30" Click="Bolt_Click"></Button>
+                <Button Name="italics" FontStyle="Italic" Margin="5" Content="I" MinWidth="100" FontSize="30" Click="Italics_Click"/>
+                <Slider Name="slider" Minimum="1" Maximum="80" Width="200" VerticalAlignment="Center" Margin="5" ValueChanged="Slider_ValueChanged"/>
+                <ComboBox Name="comboBox" Margin="5" Width="300" SelectionChanged="ComboBox_SelectionChanged" VerticalAlignment="Center" FontSize="20"/>
+            </StackPanel>
+        </ToolBar>
+
+        <RichTextBox Name="richTextBox" Grid.Row="1" Margin="5" Padding="5">
+            
+        </RichTextBox>
+    </Grid>
+</Window>
