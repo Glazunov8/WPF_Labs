@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{3239227C-BE36-438D-8417-28DE1D3EB25F}</ProjectGuid>
+    <ProjectGuid>{81CFF1C0-A49D-4A44-A0CD-2A008ACE6C20}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>Laba_4A</RootNamespace>
-    <AssemblyName>Laba_4A</AssemblyName>
+    <RootNamespace>Laba_5A</RootNamespace>
+    <AssemblyName>Laba_5A</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <ProjectTypeGuids>{60dc8134-eba5-43b8-bcc9-bb4bc16c2548};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
@@ -37,9 +37,6 @@
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Data" />
-    <Reference Include="System.Drawing" />
-    <Reference Include="System.Drawing.Design" />
-    <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml" />
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="System.Core" />

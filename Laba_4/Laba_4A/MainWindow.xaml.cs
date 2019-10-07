@@ -5,8 +5,6 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows;
 using System.Drawing;
-//using System.Windows.Forms;
-using System.Drawing.Text;
 using System.Windows.Controls;
 using System.Windows.Data;
 using System.Windows.Documents;
@@ -32,15 +30,12 @@ namespace Laba_4A
 
         private void Window_Loaded(object sender, RoutedEventArgs e)
         {
-            var aFontsCollection = Fonts.SystemFontFamilies.Select(family => family.ToString()).ToList();
-            aFontsCollection.Sort();
+            foreach (System.Windows.Media.FontFamily fontFamily in Fonts.SystemFontFamilies)
+            {
+                comboBox.Items.Add(fontFamily.Source);
+            }
 
-            var style = new Style(typeof(ComboBoxItem));
-            var setter = new Setter(FontFamilyProperty, new Binding { Converter = new FontFamilyConvecter() });
-            style.Setters.Add(setter);
-            comboBox.ItemContainerStyle = style;
-
-            comboBox.ItemsSource = aFontsCollection;
+            comboBox.SelectedIndex = 0;
         }
 
         private void Bolt_Click(object sender, RoutedEventArgs e)
