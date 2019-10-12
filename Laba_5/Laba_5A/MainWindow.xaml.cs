@@ -27,12 +27,26 @@ namespace Laba_5A
 
         private void TextBox_TextChanged(object sender, TextChangedEventArgs e)
         {
-            if (sender is TextBox && TextBox.IsChecked == true)
+            if (sender is TextBox)
+            {
+                TextBox.IsChecked = true;
                 MessageBox.Show("Событие поднялось в TextBox");
-            if (sender is Grid && Grid.IsChecked == true)
+            }
+                
+            if (sender is Grid)
+            {
+                Grid.IsChecked = true;
                 MessageBox.Show("Событие поднялось в Grid");
-            if (sender is Window && Window.IsChecked == true)
+            }
+                
+            if (sender is Window)
+            {
+                Window.IsChecked = true;
                 MessageBox.Show("Событие поднялось в Window");
+            }
+                
+
+
         }
     }
 }
