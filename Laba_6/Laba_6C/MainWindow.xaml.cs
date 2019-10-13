@@ -54,8 +54,7 @@ namespace Laba_6C
             {
                 if (File.Exists(path.Text))
                 {
-                    File.Delete(path.Text);
-                    FileStream fs = File.Create(path.Text);
+                    FileStream fs = File.Open(path.Text, FileMode.Open, FileAccess.Write);
                     byte[] info = new UTF8Encoding(true).GetBytes(text.Text);
                     fs.Write(info, 0, info.Length);
                     fs.Close();

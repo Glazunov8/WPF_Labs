@@ -30,7 +30,7 @@
             <DockPanel Margin="10,0,10,0">
                 <TextBox Name="path"
                          Margin="0,0,10,0"
-                         Text="C:\Users\glaz8\source\repos\FIIIIILyyyyy\bbbb.txt"
+                         Text=""
                          Width="524"/>
                 <Button Name="view"
                         DockPanel.Dock="Right"

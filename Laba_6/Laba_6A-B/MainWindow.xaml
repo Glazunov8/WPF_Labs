@@ -26,11 +26,11 @@
         <StackPanel Grid.Column="1" Orientation="Vertical">
             <TextBox Name="obj"
                      Margin="10"
-                     Text="bbbb.txt"/>
+                     Text=""/>
             <DockPanel Margin="10,0,10,0">
                 <TextBox Name="way"
                          Margin="0,0,10,0"
-                         Text="C:\Users\glaz8\source\repos"
+                         Text=""
                          Width="674"/>
                 <Button Name="view"
                         DockPanel.Dock="Right"

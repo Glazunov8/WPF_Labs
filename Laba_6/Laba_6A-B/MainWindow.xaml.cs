@@ -122,14 +122,5 @@ namespace Laba_6A
             }
             System.Windows.MessageBox.Show($"Успешно создан архив {pathToZip}");
         }
-
-        private bool IsExist(string path)
-        {
-            var dirParent = new DirectoryInfo(path.Substring(0, path.LastIndexOf('\\')));
-            foreach (var s in dirParent.GetDirectories())
-                if (s.Name.Equals(obj.Text.Substring(0, obj.Text.IndexOf('.'))))
-                    return false;
-            return true;
-        }
     }
 }
