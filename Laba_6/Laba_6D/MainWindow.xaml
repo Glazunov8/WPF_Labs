@@ -13,7 +13,8 @@
         </Grid.ColumnDefinitions>
 
         <TreeView Name="treeView"
-                  Margin="10">
+                  Margin="10"
+                  SelectedItemChanged="TreeView_SelectedItemChanged">
         </TreeView>
 
         <TextBlock Name="info"

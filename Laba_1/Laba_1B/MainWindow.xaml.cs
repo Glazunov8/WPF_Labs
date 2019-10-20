@@ -43,7 +43,7 @@ namespace Laba_1B
             {
                 FloorNow.Text = "1";
                 Go.Content = "ПОЕХАЛИ";
-                elevator = new Elevator(int.Parse(Floor.Text));
+                elevator = new Elevator(int.Parse(Floor.Text??"1"));
                 Floors.Text = Floor.Text;
             }
             Go.Click -= Go_Click;
@@ -57,7 +57,7 @@ namespace Laba_1B
             dispatcherTimer.Interval = new TimeSpan(0, 0, 1);
             Go.IsEnabled = false;
             State.Text = elevator.OpenTheDoor();
-            elevator.Way = int.Parse(Floor.Text);
+            elevator.Way = int.Parse(Floor.Text ?? "1");
             if (int.Parse(Floor.Text) > 0 || int.Parse(Floor.Text) <= elevator.MaxFloor)
                 dispatcherTimer.Start();
             else

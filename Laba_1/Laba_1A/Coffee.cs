@@ -29,7 +29,7 @@ namespace Laba_1A
         {
             Image image = new Image
             {
-                Source = new BitmapImage(new Uri(@"C:\Users\glaz8\Desktop\C#\Laba_1\Laba_1A\Resource\" + Name + ".jpg"))
+                //Source = new BitmapImage(new Uri(@"C:\Users\glaz8\Desktop\C#\Laba_1\Laba_1A\Resource\" + Name + ".jpg"))
             };
             grid.Children.Clear();
             grid.Children.Add(image);

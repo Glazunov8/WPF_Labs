@@ -14,7 +14,12 @@
         </Grid.RowDefinitions>
 
         <StackPanel Orientation="Horizontal">
-            <TextBox Name="Floor" Margin="5" Width="70" MaxLength="3" FontSize="40" VerticalAlignment="Center"></TextBox>
+            <TextBox Name="Floor" 
+                     Margin="5" 
+                     Width="70" 
+                     MaxLength="3" 
+                     FontSize="40" 
+                     VerticalAlignment="Center"></TextBox>
             <Button Name="Go" Margin="5" FontSize="18" Width="100" Click="Go_Click">Этажей</Button>
             <StackPanel Margin="5" Orientation="Horizontal">
                 <TextBlock FontSize="18" Width="50" VerticalAlignment="Center">Этаж:</TextBlock>

@@ -45,10 +45,10 @@ namespace Laba_6D
                         Header = new TextBlock()
                         {
                             Text = folder.Name,
-                            Tag = folder.FullName
+                            Tag = folder.FullName,
+                            
                         }
                     };
-                    tvi.AddHandler(TreeViewItem.SelectedEvent, new RoutedEventHandler(IsSelected));
                     col.Add(tvi);
                     SetTreeView(folder, tvi.Items);
                 }
@@ -58,11 +58,11 @@ namespace Laba_6D
             catch (UnauthorizedAccessException) { }
         }
 
-        private void IsSelected(object sender, RoutedEventArgs e)
+        private void TreeView_SelectedItemChanged(object sender, RoutedPropertyChangedEventArgs<object> e)
         {
-            var tvi = sender as TreeViewItem;
-            var dir = new DirectoryInfo(((TextBlock)tvi.Header).Tag.ToString());
-            
+            object h = e.NewValue;
+            var dir = new DirectoryInfo(((TextBlock)((TreeViewItem)h).Header).Tag.ToString());
+
             info.Text = "Attributes: " + dir.Attributes +
                 "\nCreation Time: " + dir.CreationTime +
                 "\nLast Opened: " + dir.LastAccessTime +
