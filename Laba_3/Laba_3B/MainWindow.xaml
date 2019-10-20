@@ -12,16 +12,41 @@
             <RowDefinition Height="10*"/>
         </Grid.RowDefinitions>
         <StackPanel Orientation="Horizontal">
-            <Button Name="Rotate" Content="Rotate Transform" Width="150" Click="Rotate_Click"/>
-            <Button Name="Scale" Content="Scale Transform" Width="150" Click="Scale_Click"/>
-            <Button Name="Translate" Content="Translate Transform" Width="150" Click="Translate_Click"/>
+            <Button Name="Rotate" 
+                    Content="Rotate Transform" 
+                    Width="150"
+                    Click="Rotate_Click"/>
+            <Button Name="Scale"
+                    Content="Scale Transform" 
+                    Width="150" 
+                    Click="Scale_Click"/>
+            <Button Name="Translate" 
+                    Content="Translate Transform" 
+                    Width="150" 
+                    Click="Translate_Click"/>
         </StackPanel>
-        <StackPanel Name="Stack" Grid.Row="1" Orientation="Horizontal">
-            <Rectangle Margin="20" Fill="Aqua" Height="100" Width="100"></Rectangle>
-            <Image Margin="20" Source="1.png" Height="100" Width="100"></Image>
-            <Ellipse Margin="20" Fill="Beige" Height="100" Width="100"></Ellipse>
-            <Line Margin="20" Stroke="Black" X1="100" X2="200" Y1="100" Y2="200"></Line>
-            <Polygon Margin="20" Fill="LightPink" Points="10, 100, 100, 100, 25, 200"></Polygon>
+        <StackPanel Name="Stack" 
+                    Grid.Row="1" 
+                    Orientation="Horizontal">
+            <Rectangle Margin="20" 
+                       Fill="Aqua" 
+                       Height="100" 
+                       Width="100"></Rectangle>
+            <Image Margin="20" 
+                   Source="1.png" 
+                   Height="100" 
+                   Width="100"></Image>
+            <Ellipse Margin="20" 
+                     Fill="Beige" 
+                     Height="100" 
+                     Width="100"></Ellipse>
+            <Line Margin="20" 
+                  Stroke="Black" 
+                  X1="100" X2="200" 
+                  Y1="100" Y2="200"></Line>
+            <Polygon Margin="20" 
+                     Fill="LightPink" 
+                     Points="10, 100, 100, 100, 25, 200"></Polygon>
         </StackPanel>
         
     </Grid>

@@ -14,14 +14,41 @@
 
         <ToolBar>
             <StackPanel Orientation="Horizontal">
-                <Button Name="bolt" FontFamily="Gill Sans" FontStretch="UltraExpanded" Margin="5" Content="B" MinWidth="100" FontSize="30" Click="Bolt_Click"></Button>
-                <Button Name="italics" FontStyle="Italic" Margin="5" Content="I" MinWidth="100" FontSize="30" Click="Italics_Click"/>
-                <Slider Name="slider" Minimum="1" Maximum="80" Width="200" VerticalAlignment="Center" Margin="5" ValueChanged="Slider_ValueChanged"/>
-                <ComboBox Name="comboBox" Margin="5" Width="300" SelectionChanged="ComboBox_SelectionChanged" VerticalAlignment="Center" FontSize="20"/>
+                <Button Name="bolt" 
+                        FontFamily="Gill Sans" 
+                        FontStretch="UltraExpanded" 
+                        Margin="5" 
+                        Content="B" 
+                        MinWidth="100" 
+                        FontSize="30" 
+                        Click="Bolt_Click"></Button>
+                <Button Name="italics" 
+                        FontStyle="Italic" 
+                        Margin="5" 
+                        Content="I" 
+                        MinWidth="100"
+                        FontSize="30"
+                        Click="Italics_Click"/>
+                <Slider Name="slider" 
+                        Minimum="1" 
+                        Maximum="80"
+                        Width="200" 
+                        VerticalAlignment="Center" 
+                        Margin="5" 
+                        ValueChanged="Slider_ValueChanged"/>
+                <ComboBox Name="comboBox" 
+                          Margin="5" 
+                          Width="300" 
+                          SelectionChanged="ComboBox_SelectionChanged" 
+                          VerticalAlignment="Center" 
+                          FontSize="20"/>
             </StackPanel>
         </ToolBar>
 
-        <RichTextBox Name="richTextBox" Grid.Row="1" Margin="5" Padding="5">
+        <RichTextBox Name="richTextBox" 
+                     Grid.Row="1" 
+                     Margin="5" 
+                     Padding="5">
             
         </RichTextBox>
     </Grid>

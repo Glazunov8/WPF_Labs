@@ -27,33 +27,32 @@
             <StackPanel Orientation="Vertical">
                 <Button Margin="20" Click="Colculate">Вычислить</Button>
                 <TextBlock Name="Out"></TextBlock>
-                <!--<StackPanel>
-                    <WrapPanel Margin="5">
-                        <TextBlock Width="150">Название:</TextBlock>
-                        <TextBlock Name="Name"></TextBlock>
-                    </WrapPanel>
-                    <WrapPanel Margin="5">
-                        <TextBlock Width="150">Периметр:</TextBlock>
-                        <TextBlock Name="P"></TextBlock>
-                    </WrapPanel>
-                    <WrapPanel Margin="5">
-                        <TextBlock Width="150">Площадь:</TextBlock>
-                        <TextBlock Name="S"></TextBlock>
-                    </WrapPanel>
-                </StackPanel>-->
             </StackPanel>
         </StackPanel>
 
         <StackPanel Grid.Column="1" Orientation="Horizontal">
             <StackPanel>
-                <RadioButton Margin="10, 60, 10, 60" Name="Circle" VerticalAlignment="Center" Checked="Choice"></RadioButton>
-                <RadioButton Margin="10, 60, 10, 60" Name="Rect" VerticalAlignment="Center" Checked="Choice"></RadioButton>
-                <RadioButton Margin="10, 60, 10, 60" Name="Square" VerticalAlignment="Center" Checked="Choice"></RadioButton>
-            </StackPanel>
-            <StackPanel>
-                <Image Margin="10" Height="120" Source="Sources\Circle.png"/>
-                <Image Margin="10" Height="120" Source="Sources\Rect.png"/>
-                <Image Margin="10" Height="120" Source="Sources\Square.png"/>
+                <RadioButton Margin="10" 
+                             Name="Circle" 
+                             VerticalAlignment="Center" 
+                             Checked="Choice">
+                    <Image Height="120"
+                           Source="Sources\Circle.png"/>
+                </RadioButton>
+                <RadioButton Margin="10" 
+                             Name="Rect" 
+                             VerticalAlignment="Center" 
+                             Checked="Choice">
+                    <Image Height="120" 
+                           Source="Sources\Rect.png"/>
+                </RadioButton>
+                <RadioButton Margin="10" 
+                             Name="Square" 
+                             VerticalAlignment="Center"
+                             Checked="Choice">
+                    <Image Height="120" 
+                           Source="Sources\Square.png"/>
+                </RadioButton>
             </StackPanel>
         </StackPanel>
     </Grid>

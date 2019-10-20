@@ -12,17 +12,44 @@
             <RowDefinition></RowDefinition>
         </Grid.RowDefinitions>
 
-        <StackPanel Name="stack" Orientation="Horizontal">
-            <Button Name="VisualBrushButton" Content="VisualBrush" Width="150" Click="VisualBrush_Click"/>
-            <Button Name="LinearGradientBrush" Content="LinearGradientBrush" Width="150" Click="LinearGradientBrush_Click"/>
-            <Button Name="RadialGradientBrush" Content="RadialGradientBrush" Width="150" Click="RadialGradientBrush_Click"/>
-            <Button Name="ImageBrush" Content="ImageBrush" Width="150" Click="ImageBrush_Click"/>
+        <StackPanel Name="stack" 
+                    Orientation="Horizontal">
+            <Button Name="VisualBrushButton" 
+                    Content="VisualBrush" 
+                    Width="150" 
+                    Click="VisualBrush_Click"/>
+            <Button Name="LinearGradientBrush" 
+                    Content="LinearGradientBrush" 
+                    Width="150"
+                    Click="LinearGradientBrush_Click"/>
+            <Button Name="RadialGradientBrush" 
+                    Content="RadialGradientBrush" 
+                    Width="150" 
+                    Click="RadialGradientBrush_Click"/>
+            <Button Name="ImageBrush" 
+                    Content="ImageBrush" 
+                    Width="150" 
+                    Click="ImageBrush_Click"/>
         </StackPanel>
 
-        <StackPanel Name="Stack" Grid.Row="1" Orientation="Horizontal" Margin="10">
-            <Rectangle Name="rectangle" Height="200" Width="200" Margin="10" Stroke="Black"/>
-            <Ellipse Name="ellipse" Height="200" Width="200" Margin="10" Stroke="Black"/>
-            <Polygon Name="polygon" Points="0, 270, 90, 70, 270, 270" Stroke="Black" Margin="10"/>
+        <StackPanel Name="Stack" 
+                    Grid.Row="1"
+                    Orientation="Horizontal"
+                    Margin="10">
+            <Rectangle Name="rectangle"
+                       Height="200" 
+                       Width="200" 
+                       Margin="10" 
+                       Stroke="Black"/>
+            <Ellipse Name="ellipse" 
+                     Height="200" 
+                     Width="200" 
+                     Margin="10"
+                     Stroke="Black"/>
+            <Polygon Name="polygon"
+                     Points="0, 270, 90, 70, 270, 270"
+                     Stroke="Black" 
+                     Margin="10"/>
         </StackPanel>
     </Grid>
 </Window>

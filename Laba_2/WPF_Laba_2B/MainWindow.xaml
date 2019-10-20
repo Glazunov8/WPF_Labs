@@ -13,28 +13,18 @@
         </Grid.RowDefinitions>
 
         <StackPanel Orientation="Horizontal">
-            <Button Name="Deck" Click="Deck_Click" Margin="4" Padding="10, 0, 10, 0">КОЛОДА</Button>
-            <Button Name="NewDeck" Click="NewDeck_Click" Margin="0, 4, 4, 4" Padding="10, 0, 10, 0">ТАСОВАТЬ</Button>
+            <Button Name="Deck" 
+                    Click="Deck_Click" 
+                    Margin="4" 
+                    Padding="10, 0, 10, 0">КОЛОДА</Button>
+            <Button Name="NewDeck" 
+                    Click="NewDeck_Click" 
+                    Margin="0, 4, 4, 4" 
+                    Padding="10, 0, 10, 0">ТАСОВАТЬ</Button>
         </StackPanel>
 
         <StackPanel Grid.Row="1" Name="Cards" Orientation="Horizontal">
-            <!--<StackPanel Name="StackPanel_0" Margin="2" Orientation="Horizontal">
-                <Image Source="/Cards/card-white-cross-10.png" Height="120"></Image>
-                <Image Source="/Cards/card-white-cross-10.png" Height="120"></Image>
-                <Image Source="/Cards/card-white-cross-10.png" Height="120"></Image>
-                <Image Source="/Cards/card-white-cross-10.png" Height="120"></Image>
-                <Image Source="/Cards/card-white-cross-10.png" Height="120"></Image>
-                <Image Source="/Cards/card-white-cross-10.png" Height="120"></Image>
-                <Image Source="/Cards/card-white-cross-10.png" Height="120"></Image>
-                <Image Source="/Cards/card-white-cross-10.png" Height="120"></Image>
-                <Image Source="/Cards/card-white-cross-10.png" Height="120"></Image>
-                <Image Source="/Cards/card-white-cross-10.png" Height="120"></Image>
-                <Image Source="/Cards/card-white-cross-10.png" Height="120"></Image>
-                <Image Source="/Cards/card-white-cross-10.png" Height="120"></Image>
-            </StackPanel>
-            <StackPanel Name="StackPanel_1" Height="120" Margin="2"></StackPanel>
-            <StackPanel Name="StackPanel_2" Height="120" Margin="2"></StackPanel>
-            <StackPanel Name="StackPanel_3" Height="120" Margin="2"></StackPanel>-->
+           
         </StackPanel>
     </Grid>
 </Window>
